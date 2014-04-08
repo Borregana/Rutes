@@ -9,16 +9,6 @@ App::uses('AppModel', 'Model');
 class Usuario extends AppModel {
     public $name='Usuario';
 
-    public function beforeSave($options = array()) {
-        if (isset ($this->data['User']['password']) && $this->data['User']['password'] != ''){
-            App::import('Component', 'Auth');
-            $this->data['Usuario']['password'] = AuthComponent::password($this->data['User']['password']);
-        }
-        elseif($this->data['Usuario']['password'] == ''){
-            unset($this->data['Usuario']['password']);
-        }
-        return true;
-    }
 
     /**
      * Validation rules
@@ -26,7 +16,7 @@ class Usuario extends AppModel {
      * @var array
      */
     public $validate = array(
-        'nombre' => array(
+        'alias' => array(
             'notempty' => array(
                 'rule' => 'notempty',
                 'message' => 'Required field'
@@ -95,13 +85,18 @@ class Usuario extends AppModel {
             'counterQuery' => ''
         )
     );
+*/
 
-
-    public $actsAs = array(
-        'Containable',
-        'Acl' => array('type' => 'requester')
-    );
-
+    public function beforeSave($options = array()) {
+        if (isset ($this->data['Usuario']['password']) && $this->data['Usuario']['password'] != ''){
+            App::import('Component', 'Auth');
+            $this->data['Usuario']['password'] = AuthComponent::password($this->data['Usuario']['password']);
+        }
+        elseif($this->data['Usuario']['password'] == ''){
+            unset($this->data['Usuario']['password']);
+        }
+        return true;
+    }
 
     function checkPassword(){
         if(isset($this->data['Usuario']['id'])){
@@ -121,8 +116,8 @@ class Usuario extends AppModel {
     }
 
     function checkName(){
-        if(isset($this->data['Usuario']['nombre'])){
-            $name = $this->data['Usuario']['nombre'];
+        if(isset($this->data['Usuario']['alias'])){
+            $name = $this->data['Usuario']['alias'];
             $lenght = strlen($name);
             for($i=0; $i<$lenght; $i++){
                 if (ord($name[$i])==32 || ord($name[$i])>127 ){
@@ -131,9 +126,9 @@ class Usuario extends AppModel {
             }
             return TRUE;
         }
-        elseif($this->data['Usuario']['nombre'] != ''){
+        elseif($this->data['Usuario']['alias'] != ''){
             return TRUE;
         }
         return FALSE;
-    }*/
+    }
 }

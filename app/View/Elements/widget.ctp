@@ -6,7 +6,8 @@
  * Time: 08:39
  */
 ?>
-<div class="widget stacked <?php echo (isset($table))?'widget-table':'';?>">
+<div class="widget stacked
+<?php echo (isset($table))?'widget-table':'';?>">
   <?php if(isset($title)): ?>
   <div class="widget-header">
     <i class="icon-<?php  echo (isset($icon))?$icon:'star' ?>"></i>

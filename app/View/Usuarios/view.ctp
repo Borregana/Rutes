@@ -27,13 +27,13 @@ ob_start();
     }
     ?>
     </tbody>
-    <tfoot><tr><td colspan="100"><?= $this->element('paginator'); ?></td></tr></tfoot>
+    <?php //<tfoot><tr><td colspan="100"><?= $this->element('paginator'); ?></td></tr><?php //</tfoot>?>
 </table>
-<div class="index">
+<div>
     <?php
     echo $this->element('widget',
         array(
-            'title' => __("Usuario"),
+            'title' => 'Usuarios',
             'icon' => 'desktop',
             'table' => TRUE,
             'content' => ob_get_clean()
