@@ -11,17 +11,43 @@ class UsuariosController extends AppController {
 
     function beforeFilter() {
         $this->Auth->allow('register');
+
         parent::beforeFilter();
     }
 
     public function index(){
         $this->redirect(array('action'=>'login'));
     }
-
-    function login() {
+    private function isRegister() {
+        $usuarios = $this->Usuario->find('all');
+        foreach($usuarios as $key => $user) {
+            if(strcmp($user['Usuario']['alias'], $this->request->data['Usuario']['alias']) == 0
+                && strcmp($user['Usuario']['password'], $this->Auth->password($this->request->data['Usuario']['password'])) == 0) {
+                return true;
+            }
+        }
+        return false;
     }
 
-    function logout() {
+    public function login() {
+        $this->layout = 'default';
+
+        if ($this->Auth->loggedIn()) {
+            $this->Auth->logout();
+        }
+        if ($this->request->is('post')) {
+            if ($this->isRegister()) {
+                $this->Auth->login($this->request->data['Usuario']['alias']);
+                $_SESSION['usuario'] = $this->Auth->user();
+                $this->Auth->allow(array('controller' => 'Usuarios', 'action' => 'view'));
+                $this->redirect($this->Auth->redirect());
+            } else {
+                $this->Session->setFlash(__('Usuario o Contraseña incorrecta'));
+            }
+        }
+    }
+
+    public function logout() {
         $this->redirect($this->Auth->logout());
     }
 
@@ -37,9 +63,10 @@ class UsuariosController extends AppController {
 
     public function register() {
         if ($this->request->is('post')) {
-            $this->request->data['Usuario']['fecha_alta'] = date( 'm/d/Y', strtotime('-1d') );
 
-            if($this->request->data['Usuario']['password'] == $this->Auth->password($this->request->data['Usuario']['comfirmar_password'])){
+            $this->request->data['Usuario']['fecha_alta'] = date( 'm/d/Y' );
+
+            if($this->request->data['Usuario']['password'] == $this->request->data['Usuario']['comfirmar_password']){
                 $this->Usuario->create();
                 if ($this->Usuario->save($this->request->data)) {
                     $this->Session->setFlash('El usuario a sido creado');

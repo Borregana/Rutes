@@ -31,18 +31,15 @@ App::uses('Controller', 'Controller');
  * @link		http://book.cakephp.org/2.0/en/controllers.html#the-app-controller
  */
 class AppController extends Controller {
-    public $components = array(
-        'DebugKit.Toolbar',
-        'Session',
-        'Auth'
+    public $components = array( 'DebugKit.Toolbar', 'Session',
+        'Auth' => array(
+            'loginAction' => array('controller' => 'Usuarios', 'action' => 'login'),
+            'loginRedirect' => array('controller' => 'Usuarios', 'action' => 'view'),
+            'logoutRedirect' => array('controller' => 'Usuarios', 'action' => 'login')),
+        //'authorize' => array('Controller')
     );
 
     function inicializarAuth(){
-        $this->Auth->fields = array('username' => 'alias', 'password' => 'password');
-
-        $this->Auth->loginAction = array('controller' => 'Usuarios', 'action' => 'login');
-        $this->Auth->loginRedirect = array('controller' => 'Usuarios', 'action' => 'view');
-        $this->Auth->logoutRedirect = array('controller' => 'Usuarios', 'action' => 'login');
 
         $this->Auth->loginError = 'El nombre de usuario y/o la contraseña no son correctos. Por favor, inténtalo otra vez';
         $this->Auth->authError = 'Para entrar en la zona privada tienes que autenticarte';
@@ -50,8 +47,26 @@ class AppController extends Controller {
         $this->Session->write('Auth.redirect', null);
     }
 
-    function beforeFilter(){
-        //$this->Auth->allow('*');
+    public function beforeFilter() {
+
+        $permissions = array('login', 'register');  // array con métodos públicos
+
+        parent::beforeFilter();
+
+        if($this->Auth->user()):              // True si el usuario está logeado
+            array_push($permissions, 'view','logout');  // estos métodos sólo para usuarios logeados
+            $this->inicializarAuth();
+        endif;
+
+        $this->Auth->allow($permissions);
         $this->inicializarAuth();
     }
+
+    public function isAuthorized() {
+        if ( $this->Auth->user()):  // si soy un usuario logeado
+            return true;
+        endif;
+        return false;
+    }
 }
+
