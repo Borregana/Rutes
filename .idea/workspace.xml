@@ -2,21 +2,688 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="699770cf-d95f-4cfb-b4ca-68761f8a1f4f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Controller/UsuariosController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/View/Usuarios/login.ctp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/View/Usuarios/register.ctp" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/Controller/UsuarioController.php" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/View/Usuario/index.ctp" afterPath="$PROJECT_DIR$/app/View/Usuarios/view.ctp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/avatars/1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/favicon/1favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/avatars/2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/avatars/3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/avatars/4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/avatars/5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/demo/64x64.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/datatables/media/as3/lib/AlivePDF.swc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/Sorting icons.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/datatables/media/js/TableTools.min.js.gz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/ajax-loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/alpha.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/invoice/americanexpress.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/link/images/anchor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/link/images/hidpi/anchor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/smiley/images/angel_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/smiley/images/angry_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/skins/moono/images/arrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/datatables/media/images/background.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/demo/basic.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/showblocks/images/block_address.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/showblocks/images/block_blockquote.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/showblocks/images/block_div.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/showblocks/images/block_h1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/showblocks/images/block_h2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/showblocks/images/block_h3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/showblocks/images/block_h4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/showblocks/images/block_h5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/showblocks/images/block_h6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/showblocks/images/block_p.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/showblocks/images/block_pre.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/smiley/images/broken_heart.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/skins/moono/images/close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/skins/moono/images/hidpi/close.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/datatables/media/images/collection.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/datatables/media/images/psd/collection.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/datatables/media/images/collection_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/smiley/images/confused_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/datatables/media/images/psd/copy document.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/datatables/media/images/copy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/datatables/media/swf/copy_csv_xls.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/datatables/media/swf/copy_csv_xls_pdf.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/datatables/media/images/copy_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/smiley/images/cry_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/datatables/media/images/csv.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/datatables/media/images/csv_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/flags/de.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/demo/demo-smartbig-alert.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/demo/demo-smartmedium-alert.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/demo/demo-smartsmall-alert.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/smiley/images/devil_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/pattern/divider.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/smiley/images/embaressed_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/smiley/images/embarrassed_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/smiley/images/envelope.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/flags/es.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/favicon/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/favicon/favicon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/fcr-default.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/avatars/female.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/datatables/media/images/psd/file_types.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/flags/flags.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/font/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/font/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/font/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/pattern/graphy-xs.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/pattern/graphy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/smiley/images/heart.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/demo/hero.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/forms/images/hiddenfield.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/hue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/magicline/images/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/magicline/images/hidpi/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/skins/moono/icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/icons_hidpi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/skins/moono/icons_hidpi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/demo/image-placeholder-64x64.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/demo/iphoneview.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/smiley/images/kiss.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/smiley/images/lightbulb.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/pattern/lightpaperfibers.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/skins/moono/images/lock-open.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/skins/moono/images/hidpi/lock-open.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/skins/moono/images/lock.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/skins/moono/images/hidpi/lock.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/gradient/login.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/logo-blacknwhite.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/logo-blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/logo-o.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/logo-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/samples/assets/inlineall/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/about/dialogs/logo_ckeditor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/about/dialogs/hidpi/logo_ckeditor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/demo/m1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/demo/m2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/demo/m3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/avatars/male.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/invoice/mastercard.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/pattern/movable.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/mybg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/demo/newsletter.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/pattern/nistri-xs.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/pattern/nistri.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/image/images/noimage.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/smiley/images/omg_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/samples/plugins/htmlwriter/assets/outputforflash/outputforflash.fla" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/samples/plugins/htmlwriter/assets/outputforflash/outputforflash.swf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/pattern/overlay-pattern.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/pagebreak/images/pagebreak.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/pattern/paper-xs.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/pattern/paper.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/pattern/pattern.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/invoice/paypal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/datatables/media/images/pdf.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/datatables/media/images/pdf_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/flash/images/placeholder.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/iframe/images/placeholder.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/datatables/media/images/print.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/datatables/media/images/print_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/datatables/media/images/psd/printer.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/skins/moono/images/refresh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/skins/moono/images/hidpi/refresh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/smiley/images/regular_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/demo/responseimg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/ribbon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/demo/s1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/demo/s2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/demo/s3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/smiley/images/sad_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/demo/sample.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/samples/assets/sample.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/saturation.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/select2-spinner.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/select2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/smiley/images/shades_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/demo/sidebar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/demo/sidebarhero.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/demo/site-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/demo/site-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/pattern/sneaker_mesh_fabric-xs.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/pattern/sneaker_mesh_fabric.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/sort_asc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/sort_asc_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/sort_both.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/sort_desc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/sort_desc_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/fakeobjects/images/spacer.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/dropzone/spritemap.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/dropzone/spritemap@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/avatars/sunny-big.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/avatars/sunny.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/superbox/superbox-full-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/superbox/superbox-full-10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/superbox/superbox-full-11.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/superbox/superbox-full-12.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/superbox/superbox-full-13.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/superbox/superbox-full-14.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/superbox/superbox-full-15.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/superbox/superbox-full-16.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/superbox/superbox-full-17.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/superbox/superbox-full-18.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/superbox/superbox-full-19.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/superbox/superbox-full-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/superbox/superbox-full-20.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/superbox/superbox-full-21.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/superbox/superbox-full-22.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/superbox/superbox-full-23.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/superbox/superbox-full-24.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/superbox/superbox-full-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/superbox/superbox-full-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/superbox/superbox-full-5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/superbox/superbox-full-6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/superbox/superbox-full-7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/superbox/superbox-full-8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/superbox/superbox-full-9.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/superbox/superbox-thumb-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/superbox/superbox-thumb-10.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/superbox/superbox-thumb-11.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/superbox/superbox-thumb-12.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/superbox/superbox-thumb-13.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/superbox/superbox-thumb-14.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/superbox/superbox-thumb-15.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/superbox/superbox-thumb-16.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/superbox/superbox-thumb-17.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/superbox/superbox-thumb-18.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/superbox/superbox-thumb-19.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/superbox/superbox-thumb-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/superbox/superbox-thumb-20.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/superbox/superbox-thumb-21.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/superbox/superbox-thumb-22.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/superbox/superbox-thumb-23.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/superbox/superbox-thumb-24.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/superbox/superbox-thumb-3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/superbox/superbox-thumb-4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/superbox/superbox-thumb-5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/superbox/superbox-thumb-6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/superbox/superbox-thumb-7.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/superbox/superbox-thumb-8.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/superbox/superbox-thumb-9.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/smiley/images/teeth_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/templates/templates/images/template1.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/templates/templates/images/template2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/templates/templates/images/template3.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/smiley/images/thumbs_down.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/smiley/images/thumbs_up.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/pattern/tileable_wood_texture-xs.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/pattern/tileable_wood_texture.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/smiley/images/tongue_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/smiley/images/tounge_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/jqueryui/ui-bg_flat_0_999999_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/jqueryui/ui-bg_flat_0_aaaaaa_40x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/jqueryui/ui-bg_glass_55_fbf9ee_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/jqueryui/ui-bg_glass_65_ffffff_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/jqueryui/ui-bg_glass_75_dadada_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/jqueryui/ui-bg_glass_75_e6e6e6_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/jqueryui/ui-bg_glass_75_ffffff_1x400.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/jqueryui/ui-bg_highlight-soft_75_cccccc_1x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/jqueryui/ui-bg_inset-soft_95_fef1ec_1x100.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/jqueryui/ui-icons_222222_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/jqueryui/ui-icons_2e83ff_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/jqueryui/ui-icons_428bca_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/jqueryui/ui-icons_454545_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/jqueryui/ui-icons_555555_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/jqueryui/ui-icons_888888_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/jqueryui/ui-icons_999999_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/jqueryui/ui-icons_cd0a0a_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/jqueryui/ui-icons_f0ad4e_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/jqueryui/ui-icons_f6cf3b_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/jqueryui/ui-icons_ffffff_256x240.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/flags/us.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/invoice/visa.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/smiley/images/whatchutalkingabout_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/demo/widget-colorpicker.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/smiley/images/wink_smile.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/datatables/media/images/xls.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/datatables/media/images/xls_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/CHANGES.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/datatables/ColReorder.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/datatables/ColVis.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/datatables/DT_bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/datatables/FixedColumns.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/LICENSE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/scayt/LICENSE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/wsc/LICENSE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/scayt/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/wsc/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/notification/SmartNotification.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/notification/SmartNotification.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/datatables/media/css/TableTools.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/datatables/media/js/TableTools.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/datatables/media/js/TableTools.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/datatables/media/css/TableTools_JUI.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/datatables/media/as3/ZeroClipboard.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/datatables/ZeroClipboard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/datatables/media/js/ZeroClipboard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/datatables/media/as3/ZeroClipboardPdf.as" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/a11yhelp/dialogs/lang/_translationstatus.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/_translationstatus.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/about/dialogs/about.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/lang/af.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/samples/ajax.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/link/dialogs/anchor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/samples/api.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/samples/appendto.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/lang/ar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/a11yhelp/dialogs/lang/ar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/ar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/lang/bg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/a11yhelp/dialogs/lang/bg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/bg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/lang/bn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/colorpicker/bootstrap-colorpicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/colorpicker/bootstrap-colorpicker.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/markdown/bootstrap-markdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/markdown/bootstrap-markdown.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/maxlength/bootstrap-maxlength.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/maxlength/bootstrap-maxlength.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/multiselect/bootstrap-multiselect.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/multiselect/bootstrap-multiselect.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/bootstrap-progressbar/bootstrap-progressbar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/bootstrap-slider/bootstrap-slider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/bootstrap-slider/bootstrap-slider.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/bootstrap-tags/bootstrap-tagsinput-angular.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/bootstrap-tags/bootstrap-tagsinput.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/bootstrap-tags/bootstrap-tagsinput.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/bootstrap-tags/bootstrap-tagsinput.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/bootstrap-timepicker/bootstrap-timepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/bootstrap-timepicker/bootstrap-timepicker.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/bootstraptree/bootstrap-tree.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/bootstrap/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/bootstrap/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/lang/bs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/build-config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/forms/dialogs/button.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/lang/ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/a11yhelp/dialogs/lang/ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/forms/dialogs/checkbox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/wsc/dialogs/ciframe.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/ckeditor-.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/ckeditor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/colordialog/dialogs/colordialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/contents.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/avatars/copyright.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/demo/copyright.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/lang/cs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/a11yhelp/dialogs/lang/cs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/cs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/lang/cy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/a11yhelp/dialogs/lang/cy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/cy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/lang/da.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/a11yhelp/dialogs/lang/da.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/samples/datafiltering.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/lang/de.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/a11yhelp/dialogs/lang/de.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/de.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/pastefromword/filter/default.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/templates/templates/default.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/delete-table-row/delete-table-row.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/css/demo.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/skins/moono/dialog.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/samples/plugins/dialog/dialog.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/dialog/dialogDefinition.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/skins/moono/dialog_ie.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/skins/moono/dialog_ie7.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/skins/moono/dialog_ie8.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/skins/moono/dialog_iequirks.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/skins/moono/dialog_opera.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/div/dialogs/div.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/samples/divreplace.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/dropzone/dropzone-amd-module.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/dropzone/dropzone-amd-module.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/dropzone/dropzone.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/dropzone/dropzone.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/skins/moono/editor.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/skins/moono/editor_gecko.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/skins/moono/editor_ie.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/skins/moono/editor_ie7.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/skins/moono/editor_ie8.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/skins/moono/editor_iequirks.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/lang/el.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/a11yhelp/dialogs/lang/el.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/el.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/lang/en-au.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/lang/en-ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/lang/en-gb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/lang/en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/a11yhelp/dialogs/lang/en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/samples/plugins/enterkey/enterkey.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/lang/eo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/a11yhelp/dialogs/lang/eo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/eo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/lang/es.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/a11yhelp/dialogs/lang/es.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/es.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/lang/et.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/a11yhelp/dialogs/lang/et.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/et.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/lang/eu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/easy-pie-chart/examples/excanvas.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/lang/fa.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/a11yhelp/dialogs/lang/fa.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/fa.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/lang/fi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/a11yhelp/dialogs/lang/fi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/fi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/find/dialogs/find.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/flash/dialogs/flash.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/lang/fo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/forms/dialogs/form.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/lang/fr-ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/a11yhelp/dialogs/lang/fr-ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/fr-ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/lang/fr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/a11yhelp/dialogs/lang/fr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/fr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/samples/plugins/wysiwygarea/fullpage.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/lang/gl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/a11yhelp/dialogs/lang/gl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/gl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/font/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/lang/gu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/a11yhelp/dialogs/lang/gu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/lang/he.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/a11yhelp/dialogs/lang/he.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/he.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/lang/hi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/a11yhelp/dialogs/lang/hi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/forms/dialogs/hiddenfield.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/lang/hr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/a11yhelp/dialogs/lang/hr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/hr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/lang/hu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/a11yhelp/dialogs/lang/hu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/hu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/lang/id.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/a11yhelp/dialogs/lang/id.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/id.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/iframe/dialogs/iframe.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/image/dialogs/image.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/samples/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/easy-pie-chart/examples/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/avatars/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/demo/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/dropzone/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/favicon/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/flags/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/gradient/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/invoice/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/jqueryui/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/pattern/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/superbox/index.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/samples/inlineall.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/samples/inlinebycode.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/samples/inlinetextarea.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/css/invoice.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ion-slider/ion.rangeSlider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ion-slider/ion.rangeSlider.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/lang/is.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/lang/it.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/a11yhelp/dialogs/lang/it.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/it.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/lang/ja.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/a11yhelp/dialogs/lang/ja.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/ja.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/smartwidgets/jarvis.widget.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/smartwidgets/jarvis.widget.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/libs/jquery-2.0.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/jquery-form/jquery-form.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/vectormap/jquery-jvectormap-1.1.1.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/vectormap/jquery-jvectormap-1.1.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/vectormap/jquery-jvectormap-1.2.2.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/vectormap/jquery-jvectormap-1.2.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/vectormap/jquery-jvectormap-world-mill-en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/js-migrate/jquery-migrate-1.2.1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/js-migrate/jquery-migrate-1.2.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/libs/jquery-ui-1.10.3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/throttle-denounce/jquery.ba-throttle-debounce.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/bootstrap-wizard/jquery.bootstrap.wizard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/bootstrap-wizard/jquery.bootstrap.wizard.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/datatables/jquery.dataTables-cust.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/datatables/jquery.dataTables-cust.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/easy-pie-chart/jquery.easy-pie-chart.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/easy-pie-chart/jquery.easy-pie-chart.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/slickgrid/lib/jquery.event.drag-2.2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/slickgrid/lib/jquery.event.drop-2.2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/flot/jquery.flot.cust.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/flot/jquery.flot.fillbetween.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/flot/jquery.flot.fillbetween.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/flot/jquery.flot.orderBar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/flot/jquery.flot.orderBar.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/flot/jquery.flot.pie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/flot/jquery.flot.pie.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/flot/jquery.flot.resize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/flot/jquery.flot.resize.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/flot/jquery.flot.tooltip.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/flot/jquery.flot.tooltip.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/fullcalendar/jquery.fullcalendar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/fullcalendar/jquery.fullcalendar.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/samples/jquery.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/adapters/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/knob/jquery.knob.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/knob/jquery.knob.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/masked-input/jquery.maskedinput.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/masked-input/jquery.maskedinput.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/msie-fix/jquery.mb.browser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/msie-fix/jquery.mb.browser.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/x-editable/jquery.mockjax.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/jquery-nestable/jquery.nestable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/noUiSlider/jquery.nouislider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/noUiSlider/jquery.nouislider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/noUiSlider/jquery.nouislider.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ie-placeholder/jquery.placeholder.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/sparkline/jquery.sparkline.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/sparkline/jquery.sparkline.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/jquery-touch/jquery.ui.touch-punch.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/jquery-touch/jquery.ui.touch-punch.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/jquery-validate/jquery.validate.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/lang/ka.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/lang/km.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/a11yhelp/dialogs/lang/km.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/lang/ko.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/a11yhelp/dialogs/lang/ko.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/lang/ku.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/a11yhelp/dialogs/lang/ku.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/ku.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/samples/assets/uilanguages/languages.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/pattern/license-info.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/invoice/license.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/link/dialogs/link.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/liststyle/dialogs/liststyle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/css/lockscreen.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/lang/lt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/a11yhelp/dialogs/lang/lt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/lang/lv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/a11yhelp/dialogs/lang/lv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/lv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/samples/plugins/magicline/magicline.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/markdown/markdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/markdown/markdown.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/lang/mk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/a11yhelp/dialogs/lang/mk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/lang/mn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/a11yhelp/dialogs/lang/mn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/x-editable/moment.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/morris/morris-chart-settings.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/morris/morris.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/morris/morris.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/lang/ms.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/samples/plugins/dialog/assets/my_dialog.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/lang/nb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/a11yhelp/dialogs/lang/nb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/nb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/lang/nl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/a11yhelp/dialogs/lang/nl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/nl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/lang/no.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/a11yhelp/dialogs/lang/no.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/no.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/scayt/dialogs/options.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/samples/plugins/htmlwriter/outputforflash.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/samples/plugins/htmlwriter/outputhtml.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/samples/assets/outputxhtml/outputxhtml.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/pace/pace.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/clipboard/dialogs/paste.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/lang/pl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/a11yhelp/dialogs/lang/pl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/pl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/samples/assets/posteddata.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/preview/preview.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/lang/pt-br.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/a11yhelp/dialogs/lang/pt-br.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/pt-br.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/lang/pt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/a11yhelp/dialogs/lang/pt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/pt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/forms/dialogs/radio.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/morris/raphael.2.1.0.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/skins/moono/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/select2/readme.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/samples/readonly.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/samples/replacebyclass.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/samples/replacebycode.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/lang/ro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/a11yhelp/dialogs/lang/ro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/lang/ru.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/a11yhelp/dialogs/lang/ru.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/ru.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/samples/sample.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/samples/assets/sample.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/samples/sample.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/samples/sample_posteddata.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/forms/dialogs/select.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/select2/select2-customized.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/select2/select2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/select2/select2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/selectToUISlider/selectToUISlider.jQuery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/selectToUISlider/selectToUISlider.jQuery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/lang/si.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/a11yhelp/dialogs/lang/si.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/si.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/lang/sk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/a11yhelp/dialogs/lang/sk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/sk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/lang/sl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/a11yhelp/dialogs/lang/sl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/sl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/slickgrid/controls/slick.allcontrols.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/slickgrid/plugins/slick.allplugins.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/slickgrid/plugins/slick.autotooltips.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/slickgrid/plugins/slick.cellcopymanager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/slickgrid/plugins/slick.cellrangedecorator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/slickgrid/plugins/slick.cellrangeselector.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/slickgrid/plugins/slick.cellselectionmodel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/slickgrid/plugins/slick.checkboxselectcolumn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/slickgrid/controls/slick.columnpicker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/slickgrid/controls/slick.columnpicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/slickgrid/slick.core.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/slickgrid/slick.dataview.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/slickgrid/slick.editors.js--" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/slickgrid/slick.editors.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/slickgrid/slick.formatters.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/slickgrid/slick.grid.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/slickgrid/slick.groupitemmetadataprovider.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/slickgrid/plugins/slick.headerbuttons.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/slickgrid/plugins/slick.headerbuttons.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/slickgrid/plugins/slick.headermenu.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/slickgrid/plugins/slick.headermenu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/slickgrid/controls/slick.pager.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/slickgrid/controls/slick.pager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/slickgrid/slick.remotemodel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/slickgrid/plugins/slick.rowmovemanager.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/slickgrid/plugins/slick.rowselectionmodel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/css/smartadmin-production.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/css/smartadmin-production_unminified.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/css/smartadmin-rtl.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/css/smartadmin-skins.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/smartclick/smartclick.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/smiley/dialogs/smiley.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/specialchar/dialogs/specialchar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/lang/sq.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/a11yhelp/dialogs/lang/sq.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/sq.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/lang/sr-latn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/a11yhelp/dialogs/lang/sr-latn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/lang/sr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/a11yhelp/dialogs/lang/sr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/easy-pie-chart/examples/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/styles.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/summernote/summernote.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/superbox/superbox.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/superbox/superbox.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/lang/sv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/a11yhelp/dialogs/lang/sv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/sv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/samples/plugins/htmlwriter/assets/outputforflash/swfobject.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/samples/tabindex.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/table/dialogs/table.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/tabletools/dialogs/tableCell.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/templates/dialogs/templates.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/templates/dialogs/templates.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/forms/dialogs/textarea.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/forms/dialogs/textfield.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/lang/th.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/a11yhelp/dialogs/lang/th.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/th.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/wsc/dialogs/tmp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/wsc/dialogs/tmpFrameset.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/markdown/to-markdown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/markdown/to-markdown.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/scayt/dialogs/toolbar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/samples/plugins/toolbar/toolbar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/lang/tr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/a11yhelp/dialogs/lang/tr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/tr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/typeahead/typeahead.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/typeahead/typeahead.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/typeahead/typeaheadjs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/typeahead/typeaheadjs.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/lang/ug.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/a11yhelp/dialogs/lang/ug.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/ug.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/samples/uicolor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/samples/uilanguages.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/lang/uk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/a11yhelp/dialogs/lang/uk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/uk.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/lang/vi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/a11yhelp/dialogs/lang/vi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/vi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/fuelux/wizard/wizard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/wsc/dialogs/wsc.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/wsc/dialogs/wsc.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/wsc/dialogs/wsc_ie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/x-editable/x-editable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/x-editable/x-editable.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/samples/xhtmlstyle.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/css/your_style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/lang/zh-cn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/a11yhelp/dialogs/lang/zh-cn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/plugins/specialchar/dialogs/lang/zh-cn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/js/plugin/ckeditor/lang/zh.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/webroot/font/FontAwesome.otf" afterPath="$PROJECT_DIR$/app/webroot/font/FontAwesome.otf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/webroot/font/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/app/webroot/font/fontawesome-webfont.eot" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/webroot/font/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/app/webroot/font/fontawesome-webfont.ttf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/webroot/font/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/app/webroot/font/fontawesome-webfont.woff" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Controller/AppController.php" afterPath="$PROJECT_DIR$/app/Controller/AppController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Model/Usuario.php" afterPath="$PROJECT_DIR$/app/Model/Usuario.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/webroot/css/font-awesome.css" afterPath="$PROJECT_DIR$/app/webroot/css/font-awesome.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Controller/UsuariosController.php" afterPath="$PROJECT_DIR$/app/Controller/UsuariosController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/webroot/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/app/webroot/css/bootstrap.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/webroot/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/app/webroot/css/font-awesome.min.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/webroot/font/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/app/webroot/font/fontawesome-webfont.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/View/Elements/widget.ctp" afterPath="$PROJECT_DIR$/app/View/Elements/widget.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/View/Usuarios/register.ctp" afterPath="$PROJECT_DIR$/app/View/Usuarios/register.ctp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Rutes.iws" />
@@ -43,7 +710,7 @@
       <file leaf-file-name="Usuario.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Model/Usuario.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="119" column="49" selection-start="3244" selection-end="3244" vertical-scroll-proportion="-76.16" vertical-offset="0" max-vertical-offset="2240">
+            <state line="119" column="49" selection-start="3244" selection-end="3244" vertical-scroll-proportion="0.0" vertical-offset="1904" max-vertical-offset="2240">
               <folding />
             </state>
           </provider>
@@ -52,10 +719,17 @@
       <file leaf-file-name="UsuariosController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Controller/UsuariosController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="92" selection-start="869" selection-end="869" vertical-scroll-proportion="-13.0" vertical-offset="203" max-vertical-offset="928">
-              <folding>
-                <element signature="e#6#89#0" expanded="false" />
-              </folding>
+            <state line="12" column="39" selection-start="284" selection-end="284" vertical-scroll-proportion="-7.68" vertical-offset="0" max-vertical-offset="1024">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Controller/AppController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="53" column="10" selection-start="1933" selection-end="1933" vertical-scroll-proportion="-20.16" vertical-offset="56" max-vertical-offset="720">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -63,7 +737,7 @@
       <file leaf-file-name="register.ctp" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/View/Usuarios/register.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="62" selection-start="378" selection-end="378" vertical-scroll-proportion="0.402746" vertical-offset="0" max-vertical-offset="437">
+            <state line="7" column="43" selection-start="236" selection-end="236" vertical-scroll-proportion="0.2562929" vertical-offset="0" max-vertical-offset="437">
               <folding />
             </state>
           </provider>
@@ -72,7 +746,7 @@
       <file leaf-file-name="login.ctp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/View/Usuarios/login.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="2" selection-start="85" selection-end="85" vertical-scroll-proportion="-1.92" vertical-offset="0" max-vertical-offset="480">
+            <state line="12" column="31" selection-start="358" selection-end="358" vertical-scroll-proportion="-7.68" vertical-offset="0" max-vertical-offset="480">
               <folding />
             </state>
           </provider>
@@ -104,9 +778,9 @@
         <option value="$PROJECT_DIR$/app/View/Usuario/login.ctp" />
         <option value="$PROJECT_DIR$/app/View/Usuarios/login.ctp" />
         <option value="$PROJECT_DIR$/app/Model/Usuario.php" />
-        <option value="$PROJECT_DIR$/app/Controller/AppController.php" />
-        <option value="$PROJECT_DIR$/app/Controller/UsuariosController.php" />
         <option value="$PROJECT_DIR$/app/View/Usuarios/register.ctp" />
+        <option value="$PROJECT_DIR$/app/Controller/UsuariosController.php" />
+        <option value="$PROJECT_DIR$/app/Controller/AppController.php" />
       </list>
     </option>
   </component>
@@ -141,7 +815,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -188,11 +861,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="View" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Usuarios" />
+              <option name="myItemId" value="webroot" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -210,7 +879,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="View" />
+              <option name="myItemId" value="webroot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -234,6 +907,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -309,7 +983,11 @@
       <created>1396866604032</created>
       <updated>1396866604032</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="login,view i register funciona correctament">
+      <created>1396955944893</created>
+      <updated>1396955944893</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -321,7 +999,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27786753" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28594506" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
@@ -353,12 +1031,76 @@
     <MESSAGE value="coses de cake" />
     <MESSAGE value="anyadits archius de jquery, bootstrap..." />
     <MESSAGE value="anyadits archius de jquery, bootstrap...&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="anyadits archius de jquery, bootstrap...&#10;" />
+    <MESSAGE value="login,view i register funciona correctament" />
+    <option name="LAST_COMMIT_MESSAGE" value="login,view i register funciona correctament" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/Model/Usuario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="119" column="49" selection-start="3244" selection-end="3244" vertical-scroll-proportion="0.0" vertical-offset="1904" max-vertical-offset="2240">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Controller/UsuariosController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="4" selection-start="321" selection-end="321" vertical-scroll-proportion="0.0" vertical-offset="224" max-vertical-offset="976">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Controller/AppController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="62" selection-start="1582" selection-end="1582" vertical-scroll-proportion="0.0" vertical-offset="672" max-vertical-offset="960">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/Usuarios/register.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="65" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0" vertical-offset="80" max-vertical-offset="432">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/Usuarios/login.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="362" selection-end="562" vertical-scroll-proportion="0.0" vertical-offset="224" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Model/Usuario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="119" column="49" selection-start="3244" selection-end="3244" vertical-scroll-proportion="0.0" vertical-offset="1904" max-vertical-offset="2240">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Controller/UsuariosController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="92" selection-start="869" selection-end="869" vertical-scroll-proportion="0.0" vertical-offset="608" max-vertical-offset="1008">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/Usuarios/register.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="62" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0" vertical-offset="176" max-vertical-offset="320">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/Usuarios/login.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="2" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0" vertical-offset="48" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Model/Usuario.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="137" column="7" selection-start="3708" selection-end="3708" vertical-scroll-proportion="0.0" vertical-offset="587" max-vertical-offset="2320">
@@ -369,9 +1111,7 @@
     <entry file="file://$PROJECT_DIR$/app/Controller/UsuariosController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="0" selection-start="554" selection-end="554" vertical-scroll-proportion="0.0" vertical-offset="320" max-vertical-offset="896">
-          <folding>
-            <element signature="e#6#89#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -411,17 +1151,13 @@
     <entry file="file://$PROJECT_DIR$/app/Controller/UsuariosController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="0" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="464">
-          <folding>
-            <element signature="e#6#89#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/View/Usuarios/view.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="9" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0" vertical-offset="112" max-vertical-offset="816">
-          <folding />
-        </state>
+        <state line="7" column="9" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0" vertical-offset="112" max-vertical-offset="816" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.htaccess">
@@ -449,11 +1185,6 @@
         <state line="70" column="0" selection-start="3660" selection-end="3660" vertical-scroll-proportion="1.0722891" vertical-offset="408" max-vertical-offset="1808" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Config/core.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="230" column="0" selection-start="8852" selection-end="8852" vertical-scroll-proportion="-0.38746437" vertical-offset="3680" max-vertical-offset="5984" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/View/Pages/home.ctp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="34" selection-start="575" selection-end="575" vertical-scroll-proportion="-0.14457831" vertical-offset="336" max-vertical-offset="3728" />
@@ -466,9 +1197,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/webroot/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.37349397" vertical-offset="248" max-vertical-offset="1552">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.37349397" vertical-offset="248" max-vertical-offset="1552" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.php">
@@ -503,51 +1232,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/Cake/View/View.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="836" column="37" selection-start="23614" selection-end="23614" vertical-scroll-proportion="0.40963855" vertical-offset="12864" max-vertical-offset="19088">
-          <folding />
-        </state>
+        <state line="836" column="37" selection-start="23614" selection-end="23614" vertical-scroll-proportion="0.40963855" vertical-offset="12864" max-vertical-offset="19088" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/View/Usuarios/view.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="822" selection-end="1054" vertical-scroll-proportion="0.5745938" vertical-offset="107" max-vertical-offset="784">
-          <folding />
-        </state>
+        <state line="31" column="0" selection-start="822" selection-end="1054" vertical-scroll-proportion="0.5745938" vertical-offset="107" max-vertical-offset="784" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Model/Usuario.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="49" selection-start="3244" selection-end="3244" vertical-scroll-proportion="-76.16" vertical-offset="0" max-vertical-offset="2240">
+        <state line="119" column="49" selection-start="3244" selection-end="3244" vertical-scroll-proportion="0.0" vertical-offset="1904" max-vertical-offset="2240">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/Usuarios/login.ctp">
+    <entry file="file://$PROJECT_DIR$/app/Config/core.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="2" selection-start="85" selection-end="85" vertical-scroll-proportion="-1.92" vertical-offset="0" max-vertical-offset="480">
-          <folding />
-        </state>
+        <state line="230" column="0" selection-start="8852" selection-end="8852" vertical-scroll-proportion="3.2192192" vertical-offset="1264" max-vertical-offset="5984" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Controller/AppController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="62" selection-start="1582" selection-end="1582" vertical-scroll-proportion="0.57831323" vertical-offset="0" max-vertical-offset="672">
+        <state line="53" column="10" selection-start="1933" selection-end="1933" vertical-scroll-proportion="-20.16" vertical-offset="56" max-vertical-offset="720">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Controller/UsuariosController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="92" selection-start="869" selection-end="869" vertical-scroll-proportion="-13.0" vertical-offset="203" max-vertical-offset="928">
-          <folding>
-            <element signature="e#6#89#0" expanded="false" />
-          </folding>
+        <state line="12" column="39" selection-start="284" selection-end="284" vertical-scroll-proportion="-7.68" vertical-offset="0" max-vertical-offset="1024">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/Usuarios/login.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="31" selection-start="358" selection-end="358" vertical-scroll-proportion="-7.68" vertical-offset="0" max-vertical-offset="480">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/View/Usuarios/register.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="62" selection-start="378" selection-end="378" vertical-scroll-proportion="0.402746" vertical-offset="0" max-vertical-offset="437">
+        <state line="7" column="43" selection-start="236" selection-end="236" vertical-scroll-proportion="0.2562929" vertical-offset="0" max-vertical-offset="437">
           <folding />
         </state>
       </provider>

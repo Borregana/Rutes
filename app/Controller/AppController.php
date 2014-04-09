@@ -36,19 +36,22 @@ class AppController extends Controller {
         'Session',
         'Auth'
     );
+
     function inicializarAuth(){
         $this->Auth->fields = array('username' => 'alias', 'password' => 'password');
+
         $this->Auth->loginAction = array('controller' => 'Usuarios', 'action' => 'login');
         $this->Auth->loginRedirect = array('controller' => 'Usuarios', 'action' => 'view');
         $this->Auth->logoutRedirect = array('controller' => 'Usuarios', 'action' => 'login');
+
         $this->Auth->loginError = 'El nombre de usuario y/o la contraseña no son correctos. Por favor, inténtalo otra vez';
         $this->Auth->authError = 'Para entrar en la zona privada tienes que autenticarte';
-        $this->Auth->allow('register');
+
         $this->Session->write('Auth.redirect', null);
     }
 
     function beforeFilter(){
+        //$this->Auth->allow('*');
         $this->inicializarAuth();
-        $this->Auth->allow();
     }
 }

@@ -11,13 +11,14 @@ class UsuariosController extends AppController {
 
     function beforeFilter() {
         $this->Auth->allow('register');
-        $this->Auth->allow('login');
-        $this->Auth->allow('logaut');
-        $this->Auth->allow('view');
+        parent::beforeFilter();
+    }
+
+    public function index(){
+        $this->redirect(array('action'=>'login'));
     }
 
     function login() {
-        $this->redirect(array('action'=>'view'));
     }
 
     function logout() {
@@ -38,7 +39,7 @@ class UsuariosController extends AppController {
         if ($this->request->is('post')) {
             $this->request->data['Usuario']['fecha_alta'] = date( 'm/d/Y', strtotime('-1d') );
 
-            if($this->request->data['Usuario']['password'] == $this->request->data['Usuario']['comfirmar']){
+            if($this->request->data['Usuario']['password'] == $this->Auth->password($this->request->data['Usuario']['comfirmar_password'])){
                 $this->Usuario->create();
                 if ($this->Usuario->save($this->request->data)) {
                     $this->Session->setFlash('El usuario a sido creado');
