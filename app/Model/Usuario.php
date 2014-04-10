@@ -8,8 +8,6 @@ App::uses('AppModel', 'Model');
  */
 class Usuario extends AppModel {
     public $name='Usuario';
-
-
     /**
      * Validation rules
      *
@@ -57,7 +55,7 @@ class Usuario extends AppModel {
      *
      * @var array
      */
-    /*public $hasMany = array(
+    public $hasMany = array(
         'Ruta' => array(
             'className' => 'Ruta',
             'foreignKey' => 'usuario_id',
@@ -71,8 +69,8 @@ class Usuario extends AppModel {
             'finderQuery' => '',
             'counterQuery' => ''
         ),
-        'CyP' => array(
-            'className' => 'CyP',
+        'Comentario' => array(
+            'className' => 'Comentario',
             'foreignKey' => 'usuario_id',
             'dependent' => false,
             'conditions' => '',
@@ -85,7 +83,7 @@ class Usuario extends AppModel {
             'counterQuery' => ''
         )
     );
-*/
+
 
     public function beforeSave($options = array()) {
         if (isset ($this->data['Usuario']['password']) && $this->data['Usuario']['password'] != ''){

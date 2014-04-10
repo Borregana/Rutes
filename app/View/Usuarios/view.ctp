@@ -27,7 +27,6 @@ ob_start();
     }
     ?>
     </tbody>
-    <?php //<tfoot><tr><td colspan="100"><?= $this->element('paginator'); ?></td></tr><?php //</tfoot>?>
 </table>
 <div>
     <?php
