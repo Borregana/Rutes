@@ -18,11 +18,12 @@ class UsuariosController extends AppController {
     public function index(){
         $this->redirect(array('action'=>'login'));
     }
+
     private function isRegister() {
         $usuarios = $this->Usuario->find('all');
         foreach($usuarios as $key => $user) {
-            if(strcmp($user['Usuario']['alias'], $this->request->data['Usuario']['alias']) == 0
-                && strcmp($user['Usuario']['password'], $this->Auth->password($this->request->data['Usuario']['password'])) == 0) {
+            if(strcmp($user['Usuario']['alias'], $this->request->data['alias']) == 0
+                && strcmp($user['Usuario']['password'], $this->Auth->password($this->request->data['password'])) == 0) {
                 return true;
             }
         }
@@ -30,14 +31,13 @@ class UsuariosController extends AppController {
     }
 
     public function login() {
-        $this->layout = 'default';
 
         if ($this->Auth->loggedIn()) {
             $this->Auth->logout();
         }
         if ($this->request->is('post')) {
             if ($this->isRegister()) {
-                $this->Auth->login($this->request->data['Usuario']['alias']);
+                $this->Auth->login($this->request->data['alias']);
                 $_SESSION['usuario'] = $this->Auth->user();
                 $this->Auth->allow(array('controller' => 'Usuarios', 'action' => 'view'));
                 $this->redirect($this->Auth->redirect());

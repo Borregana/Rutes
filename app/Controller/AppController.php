@@ -35,8 +35,9 @@ class AppController extends Controller {
         'Auth' => array(
             'loginAction' => array('controller' => 'Usuarios', 'action' => 'login'),
             'loginRedirect' => array('controller' => 'Usuarios', 'action' => 'view'),
-            'logoutRedirect' => array('controller' => 'Usuarios', 'action' => 'login')),
-        //'authorize' => array('Controller')
+            'logoutRedirect' => array('controller' => 'Usuarios', 'action' => 'login'),
+            'authorize' => array('Controller')
+        )
     );
 
     function inicializarAuth(){
