@@ -64,9 +64,9 @@ class UsuariosController extends AppController {
     public function register() {
         if ($this->request->is('post')) {
 
-            $this->request->data['Usuario']['fecha_alta'] = date( 'm/d/Y' );
+            $this->request->data['fecha_alta'] = date( 'm/d/Y' );
 
-            if($this->request->data['Usuario']['password'] == $this->request->data['Usuario']['comfirmar_password']){
+            if($this->request->data['password'] == $this->request->data['comfirmar_password']){
                 $this->Usuario->create();
                 if ($this->Usuario->save($this->request->data)) {
                     $this->Session->setFlash('El usuario a sido creado');
