@@ -31,14 +31,14 @@
     <div id="content" class="container">
         <div class="row">
             <div class="col-xs-9 col-sm-9 col-md-3 col-lg-3">
-                <h1 class="txt-color-red login-header-big">Rutes</h1>
+                <h1 class="txt-color-red login-header-big"></h1>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-5 col-lg-5">
                 <div class="well no-padding">
 
                     <form  id="smart-form-register" action="register" class="smart-form client-form" method="post">
                         <header>
-                            Registrato rapido!!
+                            Registro rapido!!
                         </header>
 
                         <fieldset>
@@ -83,7 +83,7 @@
                         <div class="message">
                             <i class="fa fa-check"></i>
                             <p>
-                                Thank you for your registration!
+                                Gracias por registrarte!
                             </p>
                         </div>
                     </form>
@@ -93,9 +93,6 @@
     </div>
 
 </div>
-
-<!-- JS TOUCH : include this plugin for mobile drag / drop touch events
-<script src="js/plugin/jquery-touch/jquery.ui.touch-punch.min.js"></script> -->
 
 <!-- BOOTSTRAP JS -->
 <script src="http://localhost/Rutes/app/webroot/js/bootstrap/bootstrap.min.js"></script>

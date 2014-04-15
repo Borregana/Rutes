@@ -1,6 +1,9 @@
 <?php
 ob_start();
 ?>
+<div id="logout" class="pull-right">
+    <span> Configuracion de perfil<a href="edit" title="Editar"><i class="btn btn-success"> Editar </i></a> </span>
+</div>
 <table class="table table-bordered table-hover table-striped">
     <?php
 

@@ -16,15 +16,19 @@
  * @license       http://www.opensource.org/licenses/mit-license.php MIT License
  */
 
+
 $cakeDescription = __d('cake_dev','');
 ?>
+<!-- FAVICONS -->
+<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+<link rel="icon" href="img/favicon/favicon.ico" type="image/x-icon">
+
 <!DOCTYPE html>
 <html>
 <head>
     <?php echo $this->Html->charset(); ?>
     <title>
-        <?php echo $cakeDescription ?>:
-        <?php echo $title_for_layout; ?>
+
     </title>
     <?php
     echo $this->Html->meta('icon');
@@ -40,6 +44,19 @@ $cakeDescription = __d('cake_dev','');
 <div id="container">
     <div id="header">
         <h1><?php echo $this->Html->link($cakeDescription, 'http://cakephp.org'); ?></h1>
+        <!-- logout button -->
+        <div id="logout" class="pull-right">
+            <span> <a href="login" title="Sign Out"><i class="btn btn-success"> Salir</i></a> </span>
+        </div>
+        <!-- end logout button -->
+
+        <!-- register button -->
+        <div id="register" class="pull-right">
+            <span> No tienes cuenta? <a href="register" title="Registro"><i class="btn btn-danger">Registrarse</i></a> </span>
+        </div>
+        <!-- end register button -->
+
+
     </div>
     <div id="content">
 

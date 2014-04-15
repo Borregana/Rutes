@@ -94,8 +94,7 @@ class UsuariosController extends AppController {
         $this->request->data['id']=$datos['Usuario']['id'];
 
         if($this->request->is('post')){
-            pr($this->request->data);
-            die;
+
             if($this->Usuario->save($this->request->data)){
                 $this->Session->setFlash('El perfil ha sido editado');
             }
