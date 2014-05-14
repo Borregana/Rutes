@@ -19,6 +19,7 @@ class UsuariosController extends AppController {
         $this->redirect(array('action'=>'login'));
     }
 
+
     private function isRegister() {
         $usuarios = $this->Usuario->find('all');
         foreach($usuarios as $key => $user) {
@@ -39,7 +40,7 @@ class UsuariosController extends AppController {
             if ($this->isRegister()) {
                 $this->Auth->login($this->request->data['alias']);
                 $_SESSION['usuario'] = $this->Auth->user();
-                $this->Auth->allow(array('controller' => 'Usuarios', 'action' => 'view'));
+                $this->Auth->allow(array('controller' => 'Usuarios', 'action' => 'display'));
                 $this->redirect($this->Auth->redirect());
             } else {
                 $this->Session->setFlash(__('Usuario o Contraseña incorrecta'));
@@ -49,6 +50,10 @@ class UsuariosController extends AppController {
 
     public function logout() {
         $this->redirect($this->Auth->logout());
+    }
+
+    public function display(){
+
     }
 
     Public function view(){
