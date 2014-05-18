@@ -1,25 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-
-    <!-- Basic Styles -->
-    <link rel="stylesheet" type="text/css" media="screen" href="http://localhost/Rutes/app/webroot/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="http://localhost/Rutes/app/webroot/css/font-awesome.min.css">
-
-    <!-- SmartAdmin Styles : Please note (smartadmin-production.css) was created using LESS variables -->
-    <link rel="stylesheet" type="text/css" media="screen" href="http://localhost/Rutes/app/webroot/css/smartadmin-production.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="http://localhost/Rutes/app/webroot/css/smartadmin-skins.css">
-
-    <!-- SmartAdmin RTL Support is under construction
-        <link rel="stylesheet" type="text/css" media="screen" href="css/smartadmin-rtl.css"> -->
-
-    <!-- Demo purpose only: goes with demo.js, you can delete this css when designing your own WebApp -->
-    <link rel="stylesheet" type="text/css" media="screen" href="http://localhost/Rutes/app/webroot/css/demo.css">
-
-    <!-- FAVICONS -->
-    <link rel="shortcut icon" href="http://localhost/Rutes/app/webroot/img/favicon/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="http://localhost/Rutes/app/webroot/img/favicon/favicon.ico" type="image/x-icon">
 
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
     <meta charset="utf-8">
