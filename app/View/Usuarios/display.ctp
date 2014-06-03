@@ -40,19 +40,7 @@
 
     <!-- Widget ID (each widget will need unique ID)-->
     <div class="jarviswidget" id="wid-id-0" data-widget-fullscreenbutton="true">
-        <!-- widget options:
-            usage: <div class="jarviswidget" id="wid-id-0" data-widget-editbutton="false">
 
-            data-widget-colorbutton="false"
-            data-widget-editbutton="false"
-            data-widget-togglebutton="false"
-            data-widget-deletebutton="false"
-            data-widget-fullscreenbutton="false"
-            data-widget-custombutton="false"
-            data-widget-collapsed="true"
-            data-widget-sortable="false"
-
-        -->
         <header>
             <h2><strong>Aqui va el nombre de la </strong> <i>Ruta seleccionada</i></h2>
 
