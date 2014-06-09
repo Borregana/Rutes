@@ -96,14 +96,18 @@ class UsuariosController extends AppController {
         );
         $datos=$this->Usuario->find('first',$options);
 
-        $this->request->data['id']=$datos['Usuario']['id'];
 
         if($this->request->is('post')){
 
+            //$this->request->data['id']=$datos['Usuario']['id'];
+            $new_datos['Usuario']=$this->request->data;
+
             if($this->Usuario->save($this->request->data)){
                 $this->Session->setFlash('El perfil ha sido editado');
+                $this->redirect(array('action'=>'display'));
             }
             $this->Session->setFlash('El perfil no se puede editar');
+            $this->redirect(array('action'=>'edit'));
         }
         else{
 

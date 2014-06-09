@@ -8,7 +8,13 @@
 <div id="main" role="main">
 
     <!-- MAIN CONTENT -->
-
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <!-- register button -->
+        <div id="register" class="pull-right">
+            <span> No tienes cuenta? <a href="register" title="Registro"><i class="btn btn-danger">Registrarse</i></a> </span>
+        </div>
+        <!-- end register button -->
+    </div>
     <div id="content" class="container">
         <div class="row">
 

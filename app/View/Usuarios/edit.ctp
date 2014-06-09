@@ -9,7 +9,13 @@
 <div id="main" role="main">
 
     <!-- MAIN CONTENT -->
-
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <!-- register button -->
+        <div id="edit" class="pull-right">
+            <span><a href="display" title="volver"><i class="btn btn-warning">Volver</i></a> </span>
+        </div>
+        <!-- end register button -->
+    </div>
     <div id="content" class="container">
         <div class="row">
 

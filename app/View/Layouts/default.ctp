@@ -95,14 +95,6 @@ $cakeDescription = __d('cake_dev','');
             <span> <a href="login" title="Sign Out"><i class="btn btn-success"> Salir</i></a> </span>
         </div>
         <!-- end logout button -->
-
-        <!-- register button -->
-        <div id="register" class="pull-right">
-            <span> No tienes cuenta? <a href="register" title="Registro"><i class="btn btn-danger">Registrarse</i></a> </span>
-        </div>
-        <!-- end register button -->
-
-
     </div>
     <div id="content">
 
