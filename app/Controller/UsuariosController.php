@@ -54,6 +54,7 @@ class UsuariosController extends AppController {
 
     public function display(){
 
+        //$this->listRutas();
     }
 
     Public function view(){
@@ -114,5 +115,16 @@ class UsuariosController extends AppController {
             $this->set('datos', $datos);
         }
 
+    }
+
+    public function listRutas(){
+        $options= array(
+            'conditions'=>array(
+                'usuario_id'=>$this->Auth->user()
+            )
+        );
+        $datos=$this->Rutas->find('first',$options);
+
+        $this->set('rutas', $datos);
     }
 }
