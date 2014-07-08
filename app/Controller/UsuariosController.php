@@ -7,7 +7,7 @@
  */
 class UsuariosController extends AppController {
     public $helpers = array('Html','Form');
-    public $name = 'Usuarios';
+    public $uses = array('Ruta', 'Usuario');
 
     function beforeFilter() {
         $this->Auth->allow('register');
@@ -54,7 +54,7 @@ class UsuariosController extends AppController {
 
     public function display(){
 
-        //$this->listRutas();
+        $this->listRutas();
     }
 
     Public function view(){
@@ -120,11 +120,12 @@ class UsuariosController extends AppController {
     public function listRutas(){
         $options= array(
             'conditions'=>array(
-                'usuario_id'=>$this->Auth->user()
+                'alias'=>$this->Auth->user()
             )
         );
-        $datos=$this->Rutas->find('first',$options);
+        $datos=$this->Usuario->find('first', $options);
 
-        $this->set('rutas', $datos);
+        $this->set('rutas', $datos['Ruta']);
+
     }
 }

@@ -128,11 +128,59 @@
     <!-- end register button -->
 </div>
 
-<div class="col-md-2 col-lg-2 hidden-xs hidden-sm">
-    <h1 class="txt-color-red login-header-big">Mis Rutas</h1>
-    <div class="well no padding">
+<!-- NEW WIDGET START -->
+<article class="col-md-1 col-lg-2">
+
+    <!-- Widget ID (each widget will need unique ID)-->
+    <div class="jarviswidget" id="wid-id-0" data-widget-fullscreenbutton="true">
+
+        <header>
+            <h2><strong>Mis Rutas</strong></h2>
+
+        </header>
+
+        <!-- widget div-->
+        <div>
+
+            <!-- widget edit box -->
+            <div class="jarviswidget-editbox">
+                <!-- This area used as dropdown edit box -->
+                <input class="form-control" type="text">
+                <span class="note"><i class="fa fa-check text-success"></i> Change title to update and save instantly!</span>
+
+            </div>
+            <!-- end widget edit box -->
+
+            <!-- widget content -->
+            <div class="widget-body">
+                <table class="table table-bordered table-striped">
+                    <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Fecha</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <?php
+                    foreach( $rutas as $ruta){?>
+                        <tr>
+                            <td><?= $ruta['nombre']; ?></td>
+                            <td><?= $ruta['fecha_publicacion']; ?></td>
+                        </tr>
+                    <?php } ?>
+                    </tbody>
+                </table>
+
+            </div>
+            <!-- end widget content -->
+
+        </div>
+        <!-- end widget div -->
+
     </div>
-</div>
+    <!-- end widget -->
+</article>
+
 <!-- NEW WIDGET START -->
 <article class="col-md-6 col-lg-6">
 

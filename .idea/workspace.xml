@@ -30,7 +30,7 @@
       <file leaf-file-name="UsuariosController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Controller/UsuariosController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="27" selection-start="1622" selection-end="1622" vertical-scroll-proportion="-8.6" vertical-offset="729" max-vertical-offset="2176">
+            <state line="129" column="5" selection-start="3577" selection-end="3577" vertical-scroll-proportion="-6.2" vertical-offset="1568" max-vertical-offset="2192">
               <folding />
             </state>
           </provider>
@@ -39,28 +39,37 @@
       <file leaf-file-name="edit.ctp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/View/Usuarios/edit.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="97" selection-start="1222" selection-end="1255" vertical-scroll-proportion="-8.96" vertical-offset="288" max-vertical-offset="1360">
+            <state line="32" column="97" selection-start="1222" selection-end="1255" vertical-scroll-proportion="-4.48" vertical-offset="400" max-vertical-offset="1360">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="display.ctp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="display.ctp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/View/Usuarios/display.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="565" selection-end="565" vertical-scroll-proportion="0.635514" vertical-offset="0" max-vertical-offset="4080">
+            <state line="131" column="33" selection-start="6329" selection-end="6329" vertical-scroll-proportion="-10.64" vertical-offset="1830" max-vertical-offset="4848">
               <folding>
-                <marker date="1404474754000" expanded="true" signature="3487:3515" placeholder="..." />
-                <marker date="1404474754000" expanded="true" signature="3544:4154" placeholder="..." />
-                <marker date="1404474754000" expanded="true" signature="4193:4215" placeholder="..." />
-                <marker date="1404474754000" expanded="true" signature="4229:4293" placeholder="..." />
-                <marker date="1404474754000" expanded="true" signature="4307:4447" placeholder="..." />
-                <marker date="1404474754000" expanded="true" signature="4561:4589" placeholder="..." />
-                <marker date="1404474754000" expanded="true" signature="4616:5226" placeholder="..." />
-                <marker date="1404474754000" expanded="true" signature="5254:5276" placeholder="..." />
-                <marker date="1404474754000" expanded="true" signature="5290:5354" placeholder="..." />
-                <marker date="1404474754000" expanded="true" signature="5368:5508" placeholder="..." />
+                <marker date="1404817200000" expanded="true" signature="3487:3515" placeholder="..." />
+                <marker date="1404817200000" expanded="true" signature="3544:4154" placeholder="..." />
+                <marker date="1404817200000" expanded="true" signature="4193:4215" placeholder="..." />
+                <marker date="1404817200000" expanded="true" signature="4229:4293" placeholder="..." />
+                <marker date="1404817200000" expanded="true" signature="4307:4447" placeholder="..." />
+                <marker date="1404817200000" expanded="true" signature="4561:4589" placeholder="..." />
+                <marker date="1404817200000" expanded="true" signature="4616:5226" placeholder="..." />
+                <marker date="1404817200000" expanded="true" signature="5254:5276" placeholder="..." />
+                <marker date="1404817200000" expanded="true" signature="5290:5354" placeholder="..." />
+                <marker date="1404817200000" expanded="true" signature="5368:5508" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="core.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Config/core.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="230" column="0" selection-start="8852" selection-end="8852" vertical-scroll-proportion="4.7891154" vertical-offset="1296" max-vertical-offset="5984">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -68,7 +77,7 @@
       <file leaf-file-name="default.ctp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/View/Layouts/default.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="96" column="34" selection-start="4374" selection-end="4374" vertical-scroll-proportion="-31.0" vertical-offset="521" max-vertical-offset="1712">
+            <state line="96" column="34" selection-start="4374" selection-end="4374" vertical-scroll-proportion="0.0" vertical-offset="1536" max-vertical-offset="1952">
               <folding />
             </state>
           </provider>
@@ -155,7 +164,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -222,6 +230,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -333,11 +342,15 @@
       <created>1401806561535</created>
       <updated>1401806561535</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="añadido javascript para usar drawing tools, el mapa y los primeros tres botones funcionan bien">
+      <created>1404474853622</created>
+      <updated>1404474853622</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1280" height="800" extended-state="6" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3251366" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -345,7 +358,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23101777" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2374798" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
@@ -386,7 +399,8 @@
     <MESSAGE value="creado vista de display, añadido mapa y creado el archivo jquery-1.11.1" />
     <MESSAGE value="creadas librerias jquery 2.2 y jquery-gomap" />
     <MESSAGE value="arreglos en la vista display" />
-    <option name="LAST_COMMIT_MESSAGE" value="arreglos en la vista display" />
+    <MESSAGE value="añadido javascript para usar drawing tools, el mapa y los primeros tres botones funcionan bien" />
+    <option name="LAST_COMMIT_MESSAGE" value="añadido javascript para usar drawing tools, el mapa y los primeros tres botones funcionan bien" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -612,61 +626,59 @@
         <state line="70" column="1" selection-start="3661" selection-end="3661" vertical-scroll-proportion="0.32348368" vertical-offset="576" max-vertical-offset="1472" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Config/core.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="230" column="0" selection-start="8852" selection-end="8852" vertical-scroll-proportion="-2.7938144" vertical-offset="5305" max-vertical-offset="5984" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/View/Usuarios/register.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="0" selection-start="3203" selection-end="3203" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="2176">
-          <folding />
-        </state>
+        <state line="61" column="0" selection-start="3203" selection-end="3203" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="2176" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/View/Usuarios/login.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="4" selection-start="145" selection-end="468" vertical-scroll-proportion="0.0" vertical-offset="160" max-vertical-offset="1120">
+        <state line="10" column="4" selection-start="145" selection-end="468" vertical-scroll-proportion="0.0" vertical-offset="160" max-vertical-offset="1120" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/Layouts/default.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="96" column="34" selection-start="4374" selection-end="4374" vertical-scroll-proportion="0.0" vertical-offset="1536" max-vertical-offset="1952">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/View/Usuarios/edit.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="97" selection-start="1222" selection-end="1255" vertical-scroll-proportion="-8.96" vertical-offset="288" max-vertical-offset="1360">
+        <state line="32" column="97" selection-start="1222" selection-end="1255" vertical-scroll-proportion="-4.48" vertical-offset="400" max-vertical-offset="1360">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Controller/UsuariosController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="27" selection-start="1622" selection-end="1622" vertical-scroll-proportion="-8.6" vertical-offset="729" max-vertical-offset="2176">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/Layouts/default.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="34" selection-start="4374" selection-end="4374" vertical-scroll-proportion="-31.0" vertical-offset="521" max-vertical-offset="1712">
+        <state line="129" column="5" selection-start="3577" selection-end="3577" vertical-scroll-proportion="-6.2" vertical-offset="1568" max-vertical-offset="2192">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/View/Usuarios/display.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="565" selection-end="565" vertical-scroll-proportion="0.635514" vertical-offset="0" max-vertical-offset="4080">
+        <state line="131" column="33" selection-start="6329" selection-end="6329" vertical-scroll-proportion="-10.64" vertical-offset="1830" max-vertical-offset="4848">
           <folding>
-            <marker date="1404474754000" expanded="true" signature="3487:3515" placeholder="..." />
-            <marker date="1404474754000" expanded="true" signature="3544:4154" placeholder="..." />
-            <marker date="1404474754000" expanded="true" signature="4193:4215" placeholder="..." />
-            <marker date="1404474754000" expanded="true" signature="4229:4293" placeholder="..." />
-            <marker date="1404474754000" expanded="true" signature="4307:4447" placeholder="..." />
-            <marker date="1404474754000" expanded="true" signature="4561:4589" placeholder="..." />
-            <marker date="1404474754000" expanded="true" signature="4616:5226" placeholder="..." />
-            <marker date="1404474754000" expanded="true" signature="5254:5276" placeholder="..." />
-            <marker date="1404474754000" expanded="true" signature="5290:5354" placeholder="..." />
-            <marker date="1404474754000" expanded="true" signature="5368:5508" placeholder="..." />
+            <marker date="1404817200000" expanded="true" signature="3487:3515" placeholder="..." />
+            <marker date="1404817200000" expanded="true" signature="3544:4154" placeholder="..." />
+            <marker date="1404817200000" expanded="true" signature="4193:4215" placeholder="..." />
+            <marker date="1404817200000" expanded="true" signature="4229:4293" placeholder="..." />
+            <marker date="1404817200000" expanded="true" signature="4307:4447" placeholder="..." />
+            <marker date="1404817200000" expanded="true" signature="4561:4589" placeholder="..." />
+            <marker date="1404817200000" expanded="true" signature="4616:5226" placeholder="..." />
+            <marker date="1404817200000" expanded="true" signature="5254:5276" placeholder="..." />
+            <marker date="1404817200000" expanded="true" signature="5290:5354" placeholder="..." />
+            <marker date="1404817200000" expanded="true" signature="5368:5508" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Config/core.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="230" column="0" selection-start="8852" selection-end="8852" vertical-scroll-proportion="4.7891154" vertical-offset="1296" max-vertical-offset="5984">
+          <folding />
         </state>
       </provider>
     </entry>
