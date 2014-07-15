@@ -1,45 +1,43 @@
-<?php
-ob_start();
-?>
-<div id="logout" class="pull-right">
-    <span> Configuracion de perfil<a href="edit" title="Editar"><i class="btn btn-success"> Editar </i></a> </span>
-</div>
-<table class="table table-bordered table-hover table-striped">
-    <?php
-
-    echo $this->Html->tableHeaders(
-        array(
-            $this->Paginator->sort('id'),
-            $this->Paginator->sort('nombre'),
-            $this->Paginator->sort('alias'),
-            $this->Paginator->sort('mail')
-        )
-    );
-    ?>
-    <tbody>
-    <?php
-    foreach($usuario as $usuarios){
-        echo $this->Html->tableCells(
-            array(
-                h($usuarios['Usuario']['id']),
-                h($usuarios['Usuario']['nombre']),
-                h($usuarios['Usuario']['alias']),
-                h($usuarios['Usuario']['mail'])
-            )
-        );
-    }
-    ?>
-    </tbody>
-</table>
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
 <div>
-    <?php
-    echo $this->element('widget',
-        array(
-            'title' => 'Usuarios',
-            'icon' => 'desktop',
-            'table' => TRUE,
-            'content' => ob_get_clean()
-        )
-    );
-    ?>
-</div>
+    <div class="col-md-3"></div>
+    <div id="content" class="container">
+        <div class="col-md-12">
+            <div class="well no-padding">
+                <header>
+                    <h1 class="txt-color-red login-header-big"><center>Mis Rutas</center></h1>
+                </header>
+                <table class="table table-bordered table-striped">
+                    <thead>
+                    </thead>
+                    <tbody>
+                    <?php
+                    foreach( $rutas as $ruta){?>
+                        <tr>
+                            <td><?= $ruta['nombre']; ?></td>
+                            <td><?= $ruta['ciudad']; ?></td>
+                            <td><?= $ruta['tiempo']; ?></td>
+                            <td><?= $ruta['vehiculo']; ?></td>
+                            <td><?= $ruta['fecha_publicacion']; ?></td>
+
+                            <td><?if($ruta['publica']==1){
+                                    echo 'SI';
+                                }
+                                else{
+                                    echo 'NO';
+                                }?></td>
+                            <td><?= $ruta['puntuacion_media']; ?></td>
+                        </tr>
+                    <?php } ?>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="col-md-3"></div>
+    </div>
+</body>
+</html>

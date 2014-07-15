@@ -7,7 +7,7 @@
  */
 class UsuariosController extends AppController {
     public $helpers = array('Html','Form');
-    public $uses = array('Ruta', 'Usuario');
+    public $uses = array('Ruta', 'Usuario', 'Punto');
 
     function beforeFilter() {
         $this->Auth->allow('register');
@@ -54,16 +54,14 @@ class UsuariosController extends AppController {
 
     public function display(){
 
-        $this->listRutas();
+        if($this->request->is('post')){
+
+        }
     }
 
     Public function view(){
 
-        $list=$this->paginate(
-            'Usuario'
-        );
-
-        $this->set('usuario', $list);
+        $this->listRutas();
     }
 
 
@@ -126,6 +124,20 @@ class UsuariosController extends AppController {
         $datos=$this->Usuario->find('first', $options);
 
         $this->set('rutas', $datos['Ruta']);
-
     }
+
+    public function newRuta(){
+        if($this->request->is('post')){
+            pr($_POST);
+            //$this->request->data['ruta']=$_POST['puntos'];
+            pr($this->request->data);
+            //die;
+            $this->Session->setFlash('La ruta ha sido guardada satisfactoriamente');
+            $this->redirect(array('action'=>'display'));
+        }
+    }
+    public function publicRuta(){
+        $this->redirect(array('controller'=>'Rutas', 'action'=>'index'));
+    }
+
 }
