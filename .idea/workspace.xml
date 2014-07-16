@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="699770cf-d95f-4cfb-b4ca-68761f8a1f4f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Controller/RutasController.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/View/Rutas/index.ctp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/View/Elements/subnavbar.ctp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/View/Rutas/view.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Controller/AppController.php" afterPath="$PROJECT_DIR$/app/Controller/AppController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Controller/UsuariosController.php" afterPath="$PROJECT_DIR$/app/Controller/UsuariosController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Config/core.php" afterPath="$PROJECT_DIR$/app/Config/core.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/View/Layouts/default.ctp" afterPath="$PROJECT_DIR$/app/View/Layouts/default.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Config/bootstrap.php" afterPath="$PROJECT_DIR$/app/Config/bootstrap.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/View/Usuarios/display.ctp" afterPath="$PROJECT_DIR$/app/View/Usuarios/display.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/View/Usuarios/view.ctp" afterPath="$PROJECT_DIR$/app/View/Usuarios/view.ctp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Rutes.iws" />
@@ -37,27 +32,27 @@
       <file leaf-file-name="UsuariosController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Controller/UsuariosController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="125" column="44" selection-start="3527" selection-end="3527" vertical-scroll-proportion="-13.08" vertical-offset="1673" max-vertical-offset="2384">
+            <state line="129" column="16" selection-start="3636" selection-end="3636" vertical-scroll-proportion="-33.56" vertical-offset="1225" max-vertical-offset="2320">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="display.ctp" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="display.ctp" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/View/Usuarios/display.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="129" column="59" selection-start="6284" selection-end="6284" vertical-scroll-proportion="-6.8" vertical-offset="1894" max-vertical-offset="3536">
+            <state line="25" column="18" selection-start="880" selection-end="880" vertical-scroll-proportion="0.4084084" vertical-offset="128" max-vertical-offset="3616">
               <folding>
-                <marker date="1405444803000" expanded="true" signature="3501:3529" placeholder="..." />
-                <marker date="1405444803000" expanded="true" signature="3558:4168" placeholder="..." />
-                <marker date="1405444803000" expanded="true" signature="4207:4229" placeholder="..." />
-                <marker date="1405444803000" expanded="true" signature="4243:4307" placeholder="..." />
-                <marker date="1405444803000" expanded="true" signature="4321:4461" placeholder="..." />
-                <marker date="1405444803000" expanded="true" signature="4575:4603" placeholder="..." />
-                <marker date="1405444803000" expanded="true" signature="4630:5240" placeholder="..." />
-                <marker date="1405444803000" expanded="true" signature="5268:5290" placeholder="..." />
-                <marker date="1405444803000" expanded="true" signature="5304:5368" placeholder="..." />
-                <marker date="1405444803000" expanded="true" signature="5382:5522" placeholder="..." />
+                <marker date="1405508243000" expanded="true" signature="3547:3575" placeholder="..." />
+                <marker date="1405508243000" expanded="true" signature="3604:4214" placeholder="..." />
+                <marker date="1405508243000" expanded="true" signature="4253:4275" placeholder="..." />
+                <marker date="1405508243000" expanded="true" signature="4289:4353" placeholder="..." />
+                <marker date="1405508243000" expanded="true" signature="4367:4507" placeholder="..." />
+                <marker date="1405508243000" expanded="true" signature="4621:4649" placeholder="..." />
+                <marker date="1405508243000" expanded="true" signature="4676:5286" placeholder="..." />
+                <marker date="1405508243000" expanded="true" signature="5314:5336" placeholder="..." />
+                <marker date="1405508243000" expanded="true" signature="5350:5414" placeholder="..." />
+                <marker date="1405508243000" expanded="true" signature="5428:5568" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -66,34 +61,7 @@
       <file leaf-file-name="RutasController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Controller/RutasController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="51" selection-start="1616" selection-end="1616" vertical-scroll-proportion="-20.76" vertical-offset="265" max-vertical-offset="944">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="view.ctp" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/View/Rutas/view.ctp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="39" selection-start="1136" selection-end="1136" vertical-scroll-proportion="1.3786848" vertical-offset="0" max-vertical-offset="1536">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="view.ctp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/View/Usuarios/view.ctp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="61" selection-start="248" selection-end="285" vertical-scroll-proportion="-6.68" vertical-offset="9" max-vertical-offset="784">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.ctp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/View/Usuarios/login.ctp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="27" selection-start="2529" selection-end="2559" vertical-scroll-proportion="-16.4" vertical-offset="454" max-vertical-offset="1120">
+            <state line="54" column="51" selection-start="1616" selection-end="1616" vertical-scroll-proportion="-31.36" vertical-offset="0" max-vertical-offset="944">
               <folding />
             </state>
           </provider>
@@ -133,12 +101,10 @@
         <option value="$PROJECT_DIR$/app/View/Usuarios/register_tmp.ctp" />
         <option value="$PROJECT_DIR$/app/webroot/css/font-awesome.css" />
         <option value="$PROJECT_DIR$/app/webroot/css/font-awesome.min.css" />
-        <option value="$PROJECT_DIR$/app/Controller/AppController.php" />
         <option value="$PROJECT_DIR$/app/webroot/js/jquery-1.11.1.js" />
         <option value="$PROJECT_DIR$/app/webroot/js/jquery.gomap-1.3.2.js" />
         <option value="$PROJECT_DIR$/app/webroot/js/jquery-2.2.1.js" />
         <option value="$PROJECT_DIR$/app/View/Usuarios/login.ctp" />
-        <option value="$PROJECT_DIR$/app/Config/bootstrap.php" />
         <option value="$PROJECT_DIR$/app/View/Usuarios/register.ctp" />
         <option value="$PROJECT_DIR$/app/View/Usuarios/edit.ctp" />
         <option value="$PROJECT_DIR$/app/Config/core.php" />
@@ -146,10 +112,12 @@
         <option value="$PROJECT_DIR$/app/View/Elements/subnavbar.php" />
         <option value="$PROJECT_DIR$/app/View/Rutas/index.ctp" />
         <option value="$PROJECT_DIR$/app/Controller/RutasController.php" />
-        <option value="$PROJECT_DIR$/app/Controller/UsuariosController.php" />
         <option value="$PROJECT_DIR$/app/View/Usuarios/view.ctp" />
-        <option value="$PROJECT_DIR$/app/View/Usuarios/display.ctp" />
         <option value="$PROJECT_DIR$/app/View/Rutas/view.ctp" />
+        <option value="$PROJECT_DIR$/app/Config/bootstrap.php" />
+        <option value="$PROJECT_DIR$/app/Controller/AppController.php" />
+        <option value="$PROJECT_DIR$/app/Controller/UsuariosController.php" />
+        <option value="$PROJECT_DIR$/app/View/Usuarios/display.ctp" />
       </list>
     </option>
   </component>
@@ -212,20 +180,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="plugins" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Rutes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Rutes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -244,29 +198,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="View" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Usuarios" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Rutes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Rutes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="View" />
+              <option name="myItemId" value="webroot" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -392,19 +324,23 @@
       <created>1404817675967</created>
       <updated>1404817675967</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="creadas funciones y vistas de 'mis rutas', 'buscador' y 'ruta publica'. modificado display, ya no sale la lista de mis rutas y tiene botones para navegar entre opciones">
+      <created>1405444999131</created>
+      <updated>1405444999131</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3251366" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3251366" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2358643" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23909532" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
@@ -412,12 +348,12 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -447,37 +383,13 @@
     <MESSAGE value="arreglos en la vista display" />
     <MESSAGE value="añadido javascript para usar drawing tools, el mapa y los primeros tres botones funcionan bien" />
     <MESSAGE value="añadida funcion listrutas y en display aparece la lista de rutas del usuario" />
-    <option name="LAST_COMMIT_MESSAGE" value="añadida funcion listrutas y en display aparece la lista de rutas del usuario" />
+    <MESSAGE value="creadas funciones y vistas de 'mis rutas', 'buscador' y 'ruta publica'. modificado display, ya no sale la lista de mis rutas y tiene botones para navegar entre opciones" />
+    <option name="LAST_COMMIT_MESSAGE" value="creadas funciones y vistas de 'mis rutas', 'buscador' y 'ruta publica'. modificado display, ya no sale la lista de mis rutas y tiene botones para navegar entre opciones" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/View/Elements/paginator.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="131" selection-start="185" selection-end="185" vertical-scroll-proportion="0.11320755" vertical-offset="0" max-vertical-offset="424" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Config/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="27" selection-start="2641" selection-end="2641" vertical-scroll-proportion="1.2525849" vertical-offset="0" max-vertical-offset="1216" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/Elements/widget.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="118" selection-end="118" vertical-scroll-proportion="0.09453471" vertical-offset="0" max-vertical-offset="677" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/Cake/View/View.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="836" column="37" selection-start="23614" selection-end="23614" vertical-scroll-proportion="0.40963855" vertical-offset="12864" max-vertical-offset="19088" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10048" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/View/Pages/home.ctp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="34" selection-start="575" selection-end="575" vertical-scroll-proportion="0.36144578" vertical-offset="0" max-vertical-offset="3728" />
@@ -633,24 +545,9 @@
         <state line="19" column="16" selection-start="376" selection-end="376" vertical-scroll-proportion="-0.18577649" vertical-offset="400" max-vertical-offset="147136" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Config/bootstrap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="1" selection-start="3661" selection-end="3661" vertical-scroll-proportion="0.32348368" vertical-offset="576" max-vertical-offset="1472" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/View/Usuarios/register.ctp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="61" column="0" selection-start="3203" selection-end="3203" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="2176" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Config/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="679" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Config/core.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="121" column="49" selection-start="4787" selection-end="4787" vertical-scroll-proportion="0.44771722" vertical-offset="1360" max-vertical-offset="5984" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/View/Usuarios/edit.ctp">
@@ -668,68 +565,124 @@
         <state line="91" column="12" selection-start="4069" selection-end="4069" vertical-scroll-proportion="1.2017673" vertical-offset="400" max-vertical-offset="1712" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Controller/AppController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="38" selection-start="834" selection-end="834" vertical-scroll-proportion="-0.18851252" vertical-offset="176" max-vertical-offset="976" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/View/Rutas/index.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="331" selection-end="331" vertical-scroll-proportion="47.36" vertical-offset="1408" max-vertical-offset="2208">
-          <folding />
-        </state>
+        <state line="14" column="0" selection-start="331" selection-end="331" vertical-scroll-proportion="47.36" vertical-offset="1408" max-vertical-offset="2208" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Controller/UsuariosController.php">
+    <entry file="file://$PROJECT_DIR$/app/View/Usuarios/view.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="125" column="44" selection-start="3527" selection-end="3527" vertical-scroll-proportion="-13.08" vertical-offset="1673" max-vertical-offset="2384">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Controller/RutasController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="51" selection-start="1616" selection-end="1616" vertical-scroll-proportion="-20.76" vertical-offset="265" max-vertical-offset="944">
+        <state line="11" column="61" selection-start="248" selection-end="285" vertical-scroll-proportion="0.0" vertical-offset="9" max-vertical-offset="784">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/View/Usuarios/login.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="27" selection-start="2529" selection-end="2559" vertical-scroll-proportion="-16.4" vertical-offset="454" max-vertical-offset="1120">
+        <state line="54" column="27" selection-start="2529" selection-end="2559" vertical-scroll-proportion="0.0" vertical-offset="454" max-vertical-offset="1120">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/Usuarios/view.ctp">
+    <entry file="file://$PROJECT_DIR$/app/webroot/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="61" selection-start="248" selection-end="285" vertical-scroll-proportion="-6.68" vertical-offset="9" max-vertical-offset="784">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="681">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="681">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Config/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="656">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Config/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1216">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Config/acl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1952">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Config/Schema/sessions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="681">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Config/core.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="16" selection-start="738" selection-end="743" vertical-scroll-proportion="0.1015873" vertical-offset="0" max-vertical-offset="5984">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Config/bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="3" selection-start="4807" selection-end="4807" vertical-scroll-proportion="0.5023328" vertical-offset="829" max-vertical-offset="1472">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Controller/AppController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="33" selection-start="1151" selection-end="1151" vertical-scroll-proportion="0.2488336" vertical-offset="80" max-vertical-offset="976">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/Rutas/view.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="39" selection-start="1136" selection-end="1136" vertical-scroll-proportion="0.25920472" vertical-offset="432" max-vertical-offset="1536">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Controller/RutasController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="51" selection-start="1616" selection-end="1616" vertical-scroll-proportion="-31.36" vertical-offset="0" max-vertical-offset="944">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Controller/UsuariosController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="129" column="16" selection-start="3636" selection-end="3636" vertical-scroll-proportion="-33.56" vertical-offset="1225" max-vertical-offset="2320">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/View/Usuarios/display.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="129" column="59" selection-start="6284" selection-end="6284" vertical-scroll-proportion="-6.8" vertical-offset="1894" max-vertical-offset="3536">
+        <state line="25" column="18" selection-start="880" selection-end="880" vertical-scroll-proportion="0.4084084" vertical-offset="128" max-vertical-offset="3616">
           <folding>
-            <marker date="1405444803000" expanded="true" signature="3501:3529" placeholder="..." />
-            <marker date="1405444803000" expanded="true" signature="3558:4168" placeholder="..." />
-            <marker date="1405444803000" expanded="true" signature="4207:4229" placeholder="..." />
-            <marker date="1405444803000" expanded="true" signature="4243:4307" placeholder="..." />
-            <marker date="1405444803000" expanded="true" signature="4321:4461" placeholder="..." />
-            <marker date="1405444803000" expanded="true" signature="4575:4603" placeholder="..." />
-            <marker date="1405444803000" expanded="true" signature="4630:5240" placeholder="..." />
-            <marker date="1405444803000" expanded="true" signature="5268:5290" placeholder="..." />
-            <marker date="1405444803000" expanded="true" signature="5304:5368" placeholder="..." />
-            <marker date="1405444803000" expanded="true" signature="5382:5522" placeholder="..." />
+            <marker date="1405508243000" expanded="true" signature="3547:3575" placeholder="..." />
+            <marker date="1405508243000" expanded="true" signature="3604:4214" placeholder="..." />
+            <marker date="1405508243000" expanded="true" signature="4253:4275" placeholder="..." />
+            <marker date="1405508243000" expanded="true" signature="4289:4353" placeholder="..." />
+            <marker date="1405508243000" expanded="true" signature="4367:4507" placeholder="..." />
+            <marker date="1405508243000" expanded="true" signature="4621:4649" placeholder="..." />
+            <marker date="1405508243000" expanded="true" signature="4676:5286" placeholder="..." />
+            <marker date="1405508243000" expanded="true" signature="5314:5336" placeholder="..." />
+            <marker date="1405508243000" expanded="true" signature="5350:5414" placeholder="..." />
+            <marker date="1405508243000" expanded="true" signature="5428:5568" placeholder="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/Rutas/view.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="39" selection-start="1136" selection-end="1136" vertical-scroll-proportion="1.3786848" vertical-offset="0" max-vertical-offset="1536">
-          <folding />
         </state>
       </provider>
     </entry>

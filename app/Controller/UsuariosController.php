@@ -53,14 +53,11 @@ class UsuariosController extends AppController {
     }
 
     public function display(){
-
-        if($this->request->is('post')){
-
-        }
     }
 
     Public function view(){
 
+        //lista de las rutas del usuario
         $this->listRutas();
     }
 
@@ -128,10 +125,9 @@ class UsuariosController extends AppController {
 
     public function newRuta(){
         if($this->request->is('post')){
+
             pr($_POST);
-            //$this->request->data['ruta']=$_POST['puntos'];
-            pr($this->request->data);
-            //die;
+            die;
             $this->Session->setFlash('La ruta ha sido guardada satisfactoriamente');
             $this->redirect(array('action'=>'display'));
         }
